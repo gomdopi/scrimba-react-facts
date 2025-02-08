@@ -44,6 +44,7 @@ main {
   padding: 50px 28px;
   width: 680px;
   height: 460px;
+  background: no-repeat url("/react-logo-half.png") 420px 85px;
 }
 
 main > h1 {
