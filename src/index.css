@@ -5,8 +5,13 @@
 body {
   font-family: Inter, sans-serif;
   margin: 0;
-  background: #27292c;
+  background: darkslategrey;
   color: white;
+  width: 550px;
+}
+
+#root {
+  background: #27292c;
 }
 
 h1 {
@@ -17,7 +22,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 550px;
   height: 90px;
   background: #282d35;
   padding: 28px;
@@ -42,9 +46,8 @@ h1 {
 
 main {
   padding: 50px 28px;
-  width: 680px;
   height: 460px;
-  background: no-repeat url("/react-logo-half.png") 420px 85px;
+  background: no-repeat url(/react-logo-half.png) right center;
 }
 
 main > h1 {
